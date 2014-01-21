@@ -16,4 +16,4 @@ data_weather = JSON.parse(json_weather)
 
 temp = (9.0/5.0)*(data_weather["main"]["temp"]-273.15) + 32.0
 
-puts "Current Temperature: #{temp.round(1)}f"
+puts "#{temp.round(1)}f"
